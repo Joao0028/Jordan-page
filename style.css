@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+:root{
+    --cinza:#313436;
+    --cinza-2:#95999C;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background: linear-gradient(90deg, #DE26A0 0%, #068FF1 100%);
+}
+
+.container{
+    margin: 3em 6em;
+    display: flex;
+    background: #1D232A;
+    height: 85vh;
+    border-radius: 18px;
+}
+
+header{
+    padding: 0 0 0 2em ;
+    width: 20%;
+    height: 100%;
+    border-right: 0.1px solid var(--cinza);
+}
+
+.conteudo__header{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.textos__cinza{
+    color: var(--cinza-2);
+    font-size: 14px;
+}
+
+.titulo_h{
+    font-size: 23px;
+    margin: 3em 0 0 0;
+}
+
+.prodts{
+    margin: 8px 0 4em 0;
+}
+
+.links{
+    color: white;
+    margin: 0.5em 0;
+    font-size: 18px;
+    text-decoration: none;
+}
+.links:hover{
+    color: var(--cinza-2);
+}
+.car{
+    margin: 8px 0 7em 0;
+}
+
+.catalogo{
+    padding: 2em 0 1em;
+    width: 100%;
+    height: 4vh;
+}
+.hum{
+    font-size: 28px;
+    margin: 0 20em 0 2em;
+}
+.container__catalogo{
+    display: flex;
+    align-items: center;
+}
+
+ion-icon{
+    font-size: 30px;
+    margin: 0 12px;
+}
+
+.container-um{
+    display: flex;
+    margin: 0 0 0 2em;
+    padding: 1em;
+    width: 80%;
+}
+
+.container-principal-um{
+    width: 470px;
+    padding: 1em;
+    border-radius: 12px;
+    border:0.1px solid var(--cinza);
+    margin: 0 1em 0 0;
+    display: flex;
+    
+}
+.container-secundario-um{
+    width: 50%;
+    padding: 1em;
+    border-radius: 12px;
+    border:0.1px solid var(--cinza);
+}
+
+.img-grande{
+    max-width:60%;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    margin-right: 1em;
+}
+
+.nome-tenis{
+    margin: 0 auto 1em;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0.5em;
+}
+.valor{
+    font-size: 14px;
+    margin:10px 0 1.8em 0;
+}
+
+.dispo{
+    margin: 6px 0 1em 0;
+    color: var(--cinza-2);
+    font-size: 14px;
+}
+
+.comprar{
+    color: white;
+    padding: 1em;
+    background: linear-gradient(90deg, #DE26A0 0%, #068FF1 100%);
+    border-radius: 12px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    width: 105%;
+}
+
+.comprar:hover{
+    background:#068FF1 ;
+    
+}
